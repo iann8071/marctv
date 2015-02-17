@@ -10,5 +10,5 @@ WordpressでYoutubeやVimeoを再生するプラグイン
 のようなHTMLを埋め込み読み込むビデオを指定
 3. サイトを表示
 
-##管理者アカウント
+##Wordpress管理者アカウント
 name:test pass:test
