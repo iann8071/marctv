@@ -9,6 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
@@ -69,8 +70,38 @@ public class MarcTVMutationTest {
 	}
 
 	@Test
-	public void login() throws Exception {
+	public void cropHover() throws Exception {
 		driver.get(baseUrl);
-		//driver.findElement(By.xpath("//*[@id=\"post-15\"]/div/p/div/div/span[2]")).click();
+		driver.executeScript("jQuery('.crop').mouseover();");
+		driver.executeScript("jQuery('.crop').mouseout();");
+	}
+	
+	@Test
+	public void playiconHover() throws Exception {
+		driver.get(baseUrl);
+		driver.executeScript("jQuery('.playicon_area').mouseover();");
+		driver.executeScript("jQuery('.playicon_area').mouseout();");
+	}
+
+	@Test
+	public void playYoutube() throws Exception {
+		driver.get(baseUrl);
+		driver.findElementByXPath("//*[@id=\"post-15\"]/div/p[1]/div/div/span[2]").click();
+		Thread.sleep(10000);
+	}
+	
+	@Test
+	public void playVimeo() throws Exception {
+		driver.get(baseUrl);
+		driver.findElementByXPath("//*[@id=\"post-15\"]/div/p[2]/div/div/span[2]").click();
+	}
+	
+	@Test
+	public void resize() throws Exception {
+		driver.get(baseUrl);
+		int width = 400;
+		int height = 600;
+		driver.manage().window().setSize(new Dimension(width, height));
+		Thread.sleep(5000);
 	}
 }
