@@ -12,3 +12,26 @@ WordpressでYoutubeやVimeoを再生するプラグイン
 
 ##Wordpress管理者アカウント
 name:test pass:test
+
+##WebDriver Tips
+1.クリック  
+driver.findElement(By.xpath("hoge")).click();  
+
+2.ホバー    
+// アクション：一連のイベントを作成
+Actions actions = new Actions(driver);  
+// 移動先の要素を取得  
+WebElement target = driver.findElement(By.xpath("hoge"));  
+// ホバーイベントを登録  
+actions.moveToElement(target);  
+// アクション実行
+actions.perform();  
+
+3.リサイズ  
+// 指定のウィンドウサイズに変更  
+int width = 1000;  
+int height = 500;  
+driver.manage().window().setSize(new Dimension(width, height));  
+
+// 最大化  
+driver.manage().window().maximize();  
