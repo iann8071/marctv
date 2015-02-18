@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.041500000 
+@@ -335 +335 @@
+-        $(this).buildPlayer(media.id,offset,media.provider);
++        ($(this)).children(':first').buildPlayer(media.id,offset,media.provider);

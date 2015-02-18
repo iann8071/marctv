@@ -1,0 +1,30 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.036300000 
+@@ -113,22 +113,5 @@
+-      $(".crop",jqplayer).click(function() {
+-        var img_width = 0;
+-        img_width = $("img",this).width();
+-        if(img_width < 1){
+-          img_width = $(".img",this).width();
+-        }
+-        
+-   
+-        
+-        var img_height = aspectHeight(img_width,16,9);
+-        
+-        $(this).html(vidobj);
+-        
+-        $("iframe",this).css({
+-          "width": img_width,
+-          "height": img_height
+-        });
+-       
+-        var title = $("a.embedvideo",jqplayer).html();    
+-        
+-        trackVideo(mediaID,mediatype,title);
+-      });
++      $(".crop",jqplayer).click(function() {
++  if (TO !== false) 
++  clearTimeout(TO);
++  TO = setTimeout(resizeStuff, 200);
++});

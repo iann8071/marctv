@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.041000000 
+@@ -186 +186 @@
+-        var playbt_left   = (img_width/2)-($(".playicon",this).width()/2);
++        var playbt_left   = (img_width/2)-(($(".playicon", this)).children(':first').width()/2);

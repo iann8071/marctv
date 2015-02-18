@@ -1,0 +1,24 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.038200000 
+@@ -239,12 +239,9 @@
+-              success: function(data){
+-                var videotitle = data.entry.title['$t'];
+-                _gaq.push(['_trackEvent', 'youtube', 'play', videotitle ]);
+-             
+-                try{
+-                  var errorcode = data.entry['app$control']['yt$state'].reasonCode;
+-                  _gaq.push(['_trackEvent', 'youtube', 'error', errorcode + ' - ' + videotitle ]);
+-               
+-                }catch(err){
+-                
+-                }
+-              }
++              success: function(data, textStatus, jqXHR) {(function(data) {
++  var videotitle = data.entry.title['$t'];
++  _gaq.push(['_trackEvent', 'youtube', 'play', videotitle]);
++  try {
++    var errorcode = data.entry['app$control']['yt$state'].reasonCode;
++    _gaq.push(['_trackEvent', 'youtube', 'error', errorcode + ' - ' + videotitle]);
++  }  catch (err) {
++}
++}).apply(this, [/* blank response mutation */'', textStatus, jqXHR]);}

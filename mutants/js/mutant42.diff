@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.041100000 
+@@ -190 +190 @@
+-        $(this).children(".crop").children(".playicon,.playicon_hover,.playicon_area").css({
++        ($(this).children(".crop").children(".playicon,.playicon_hover,.playicon_area")).children(':first').css({

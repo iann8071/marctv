@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.040800000 
+@@ -161 +161 @@
+-        var media = parseVideoURL($("a",this).attr('href'));
++        var media = parseVideoURL(($("a", this)).children(':first').attr('href'));

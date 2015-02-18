@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.039200000 
+@@ -74 +74 @@
+-        $(vidimg).find('.videotype').html(label + ' - ' + title);
++        ($(vidimg)).children(':first').find('.videotype').html(label + ' - ' + title);

@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.039500000 
+@@ -91 +91 @@
+-              $(jqplayer).setSize();  
++              ($(jqplayer)).parent().setSize();  

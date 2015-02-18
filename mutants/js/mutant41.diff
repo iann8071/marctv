@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.041000000 
+@@ -187 +187 @@
+-        var playbt_top    = (img_height_wide/2)-($(".playicon",this).height()/2);
++        var playbt_top    = (img_height_wide/2)-(($(".playicon", this)).children(':first').height()/2);

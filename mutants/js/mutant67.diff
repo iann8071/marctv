@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.043900000 
+@@ -96 +96 @@
+-          $(".img",vidimg).replaceWith('<img src="http://img.youtube.com/vi/' + mediaID + '/hqdefault.jpg">');
++          '<img src="http://img.youtube.com/vi/' + mediaID + '/hqdefault.jpg">'.replaceWith($(".img", vidimg));

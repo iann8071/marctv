@@ -1,0 +1,10 @@
+GET http://fonts.gstatic.com:80/s/notosans/v6/PIbvSEyHEdL91QLOQRnZ1xa1RVmPjeKy21_GQJaLlJI.woff HTTP/1.1
+Host: fonts.gstatic.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:23.0) Gecko/20100101 Firefox/23.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&subset=latin%2Clatin-ext
+Origin: http://localhost
+Connection: keep-alive
+

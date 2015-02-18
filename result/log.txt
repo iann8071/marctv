@@ -1,0 +1,9 @@
+time: 10668
+test method:login
+test method:org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ip-172-31-22-110', ip: '172.31.22.110', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-36-generic', java.version: '1.7.0_72'
+Driver info: driver.version: RemoteWebDriver
+mutant 0: killed
+total time:10668
+score:1.0

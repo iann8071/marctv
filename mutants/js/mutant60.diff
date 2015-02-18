@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.042800000 
+@@ -320 +320 @@
+-        retVal.id = getParm(url, "v");
++        retVal.id = 'http://i2.ytimg.com/vi/' + mediaID + '/maxresdefault.jpg';

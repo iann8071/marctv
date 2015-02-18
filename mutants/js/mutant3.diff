@@ -1,0 +1,21 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.036500000 
+@@ -357,5 +357,13 @@
+-    $(window).resize(function(){
+-      if(TO !== false)
+-        clearTimeout(TO);
+-      TO = setTimeout(resizeStuff, 200); //200 is time in miliseconds
+-    });
++    $(window).resize(function() {
++  var img_width = 0;
++  img_width = $("img", this).width();
++  if (img_width < 1) 
++  {
++    img_width = $(".img", this).width();
++  }
++  var img_height = aspectHeight(img_width, 16, 9);
++  $(this).html(vidobj);
++  $("iframe", this).css({"width": img_width, "height": img_height});
++  var title = $("a.embedvideo", jqplayer).html();
++  trackVideo(mediaID, mediatype, title);
++});

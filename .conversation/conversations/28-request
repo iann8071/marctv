@@ -1,0 +1,9 @@
+GET http://www.google-analytics.com:80/r/__utm.gif?utmwv=5.6.3&utms=1&utmn=474677145&utmhn=localhost&utmcs=UTF-8&utmsr=1024x768&utmvp=752x381&utmsc=16-bit&utmul=en-us&utmje=1&utmfl=-&utmdt=test%20%7C%20Just%20another%20WordPress%20site&utmhid=2141023215&utmr=-&utmp=%2Fwordpress%2F&utmht=1424234994947&utmac=UA-0000000-0&utmcc=__utma%3D111872281.1797786075.1424234995.1424234995.1424234995.1%3B%2B__utmz%3D111872281.1424234995.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1920730722&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~ HTTP/1.1
+Host: www.google-analytics.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:23.0) Gecko/20100101 Firefox/23.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/wordpress/
+Connection: keep-alive
+

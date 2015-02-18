@@ -1,5 +1,8 @@
 package test;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.After;
@@ -25,6 +28,24 @@ public class MarcTVCoverageTest {
 		driver = new FirefoxDriver(cap);
 		//driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	}
+	
+	public void initDatabase() throws Exception {
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost/",
+				"root", "root");
+		Statement stmt = con.createStatement();
+		String sqlStr = "drop database wordpress";
+		stmt.executeUpdate(sqlStr);
+		sqlStr = "create database wordpress";
+		stmt.executeUpdate(sqlStr);
+		stmt.close();
+		con.close();
+		Runtime.getRuntime()
+				.exec(new String[] {
+						"sh",
+						"-c",
+						"mysql -u root -proot wordpress < /home/ubuntu/marctv/sql/wordpress.sql" });
 	}
 
 	@After

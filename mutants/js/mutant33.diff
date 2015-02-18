@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.040700000 
+@@ -149 +149 @@
+-          $(".playicon_hover",jqplayer).fadeOut("fast");
++          ($(".playicon_hover", jqplayer)).children(':first').fadeOut("fast");

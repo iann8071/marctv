@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.038900000 
+@@ -67 +67 @@
+-      vidimg = $('<div class="crop"><span class="layer"> </span><span class="playicon_area"></span> <span class="sprite playicon_hover"> </span> <span class="sprite playicon"> </span><span class="videotype">' + label + '</span><div class="img"></div>');
++      vidimg = ($('<div class="crop"><span class="layer"> </span><span class="playicon_area"></span> <span class="sprite playicon_hover"> </span> <span class="sprite playicon"> </span><span class="videotype">' + label + '</span><div class="img"></div>')).children(':first');

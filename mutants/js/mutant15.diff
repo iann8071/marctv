@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.039300000 
+@@ -77 +77 @@
+-      var caption_markup = $(options.description_html).html('<a href="' + this.attr('href') + '">' + title + '</a>');
++      var caption_markup = ($(options.description_html)).children(':first').html('<a href="' + this.attr('href') + '">' + title + '</a>');

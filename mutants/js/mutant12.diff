@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.038900000 
+@@ -65 +65 @@
+-      vidobj = $('<iframe src="' + iframeurl + mediaID + '?autoplay=1&rel=0' + showinfo + offset + hd + '" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
++      vidobj = ($('<iframe src="' + iframeurl + mediaID + '?autoplay=1&rel=0' + showinfo + offset + hd + '" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>')).parent();

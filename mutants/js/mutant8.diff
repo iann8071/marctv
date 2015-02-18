@@ -1,0 +1,13 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.038200000 
+@@ -88,5 +88,5 @@
+-            success: function(data) {
+-              $("a.embedvideo",jqplayer).html(data[0].title);
+-              $(".img",vidimg).replaceWith('<img src="' + data[0].thumbnail_large + '">');
+-              $(jqplayer).setSize();  
+-            }
++            success: function(data, textStatus, jqXHR) {(function(data) {
++  $("a.embedvideo", jqplayer).html(data[0].title);
++  $(".img", vidimg).replaceWith('<img src="' + data[0].thumbnail_large + '">');
++  $(jqplayer).setSize();
++}).apply(this, [/* blank response mutation */'', textStatus, jqXHR]);}

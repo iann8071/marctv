@@ -1,0 +1,78 @@
+EventTypeRAMutation,2
+mutant0.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant0.diff
+mutant1.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant1.diff
+EventCallbackRAMutation,2
+mutant2.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant2.diff
+mutant3.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant3.diff
+EventTargetRAMutation,2
+mutant4.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant4.diff
+mutant5.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant5.diff
+RequestOnSuccessHandlerRAMutation,2
+mutant6.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant6.diff
+mutant7.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant7.diff
+FakeBlankResponseBodyMutation,2
+mutant8.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant8.diff
+mutant9.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant9.diff
+RequestUrlRAMutation,2
+mutant10.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant10.diff
+mutant11.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant11.diff
+DOMSelectionSelectNearbyMutation,46
+mutant12.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant12.diff
+mutant13.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant13.diff
+mutant14.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant14.diff
+mutant15.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant15.diff
+mutant16.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant16.diff
+mutant17.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant17.diff
+mutant18.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant18.diff
+mutant19.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant19.diff
+mutant20.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant20.diff
+mutant21.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant21.diff
+mutant22.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant22.diff
+mutant23.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant23.diff
+mutant24.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant24.diff
+mutant25.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant25.diff
+mutant26.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant26.diff
+mutant27.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant27.diff
+mutant28.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant28.diff
+mutant29.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant29.diff
+mutant30.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant30.diff
+mutant31.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant31.diff
+mutant32.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant32.diff
+mutant33.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant33.diff
+mutant34.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant34.diff
+mutant35.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant35.diff
+mutant36.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant36.diff
+mutant37.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant37.diff
+mutant38.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant38.diff
+mutant39.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant39.diff
+mutant40.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant40.diff
+mutant41.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant41.diff
+mutant42.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant42.diff
+mutant43.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant43.diff
+mutant44.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant44.diff
+mutant45.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant45.diff
+mutant46.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant46.diff
+mutant47.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant47.diff
+mutant48.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant48.diff
+mutant49.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant49.diff
+mutant50.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant50.diff
+mutant51.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant51.diff
+mutant52.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant52.diff
+mutant53.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant53.diff
+mutant54.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant54.diff
+mutant55.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant55.diff
+mutant56.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant56.diff
+mutant57.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant57.diff
+AttributeModificationValueRAMutation,4
+mutant58.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant58.diff
+mutant59.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant59.diff
+mutant60.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant60.diff
+mutant61.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant61.diff
+AttributeModificationTargetRAMutation,4
+mutant62.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant62.diff
+mutant63.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant63.diff
+mutant64.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant64.diff
+mutant65.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant65.diff
+DOMReplacementSrcTargetMutation,2
+mutant66.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant66.diff
+mutant67.diff,non-equivalent live,/home/ubuntu/app/marctv/js/mutants/mutant67.diff

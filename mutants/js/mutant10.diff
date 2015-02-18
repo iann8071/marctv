@@ -1,0 +1,5 @@
+--- jquery.marctv-video.js	2015-02-14 12:58:20.000000000 
++++ jquery.marctv-video.js	2015-02-14 12:58:22.038600000 
+@@ -86 +86 @@
+-            url: 'http://vimeo.com/api/v2/video/' + mediaID + '.json',
++            url: "http://gdata.youtube.com/feeds/api/videos/" + mediaID + "?v=2&alt=json-in-script",
