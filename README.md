@@ -19,7 +19,7 @@ driver.findElement(By.xpath("hoge")).click();
 
 2.ホバー    
 // アクション：一連のイベントを作成
-Actions actions = new Actions(driver);  
+Actions actions = new Actions(driver);    
 // 移動先の要素を取得  
 WebElement target = driver.findElement(By.xpath("hoge"));  
 // ホバーイベントを登録  
