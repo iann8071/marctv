@@ -17,8 +17,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import proxy.ProxyStarter;
-
 public class MutationTestExecuter {
 
 	// coverage:0, js:1, html:2

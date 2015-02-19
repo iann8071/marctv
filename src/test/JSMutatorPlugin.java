@@ -1,4 +1,4 @@
-package proxy;
+package test;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
